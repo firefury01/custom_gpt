@@ -3,6 +3,11 @@
 import os
 from groq import Groq
 from logger import CustomLogger  # Import your custom logger
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
+
 
 class GroqClient:
     """Class to interact with the Groq API."""
